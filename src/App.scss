@@ -1,0 +1,30 @@
+@import "~bootstrap/scss/bootstrap";
+body {
+  background: url(https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    height: 100vh;
+      .weather-box {
+      width: 100%;
+      height: 250px;
+      padding: 50px 40px;
+      margin-bottom: 30px;
+      border: 3px solid #fff;
+      border-radius: 20px;
+      box-sizing: border-box;
+      background-color: rgba(0,0,0,.1);
+    }
+    .weather-btn {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
